@@ -19,8 +19,9 @@ puts ("\n")
 puts "#{green}[!] Legal disclaimer #{red }Developers assume no liability and are not responsible
 for any misuse or damage caused by this program"
 
-puts "#{default}Author: Mateus Alves a.k.a Alves"
+puts "#{default}Author: Alves a.k.a Alves"
 puts "#{default}E-mail: 0daycode at protonmail.com"
+puts "Facebook: fb.com/hatbashbr/"
 puts ("\n")                                                                  
      
 end
@@ -29,12 +30,18 @@ options = {:generetor => nil}
 parser = OptionParser.new do|opts|
    
     opts.banner = "Exemple: ruby iphunder.rb -g 10 or --generetor 100 "
-    opts.on('-g ','--gem ', Integer)do |generetor|
+    opts.on('-g ','--gem ', 'Generetor IP for BootNet', Integer)do |generetor|
     options[:generetor]=generetor;
     end
 	
+	opts.on('-f', '--force', 'Building' ,String)do |brute|
+	options[:brute]=brute;
+
+	end
+
+
 	opts.on('-h', '--help', 'Help') do
-       
+       	banner()
         puts opts
         exit
     end
