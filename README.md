@@ -16,6 +16,6 @@ by this program.  <br>
 
 
 <h2>Comands </h2><br>
-iphunder.rb -g <number of IP> || --generetor <number of IP> <br>
-iphunder.rb -g 100 || --generetor 200 <br>
+<h3>ruby iphunder.rb -g <number of IP> || --generetor <number of IP> </h3> <br>
+<h3>ruby iphunder.rb -g 100 || --generetor 200 <br></h3>
 
