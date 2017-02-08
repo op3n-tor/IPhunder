@@ -1,11 +1,19 @@
 # IPhunder
-Tool for generetor IP and Discovery DNS
+Tool for generetor IP and Discovery DNS <br>
 
-Usage: 
+[!] legal disclaimer: Usage of RouterHunterBR for attacking targets without prior mutual 
+consent is illegal. It is the end user's responsibility to obey all applicable local, state and 
+federal laws.Developers assume no liability and are not responsible for any misuse or damage caused
+by this program.  <br>
+
+
+[ Coded by Mateus Alves  - 0daycode at protonmail.com ]<br>
+[ https://github.com/0daycoding/ ]
 
 
 
-<h2>Tool used to generetor ip for tests and discovery DNS of IPs</h2><br>
+
+
 
 Usage: 
 iphunder.rb -g <number of IP> || --generetor <number of IP> <br>
